@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import Appsito from './Appsito'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Appsito />
   </React.StrictMode>,
   document.getElementById('root')
 );
